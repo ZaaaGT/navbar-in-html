@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeck gabut</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+   
+    <div class="w-full p-6 bg-white shadow-lg flex items-center justify-between">
+        <a href="https://github.com/zaaaGT" target="_blank" id="nameNavigasi" class="text-2xl font-bold text-blue-500 hover:underline">Hello World</a>
+
+        <nav id="navigasi" class="hidden md:flex space-x-4 md:static absolute bg-white top-16 right-6 p-6 rounded-md md:bg-transparent md:p-0">
+            <a href="#" id="homeLink" class="block text-gray-700 hover:text-blue-500 font-semibold text-lg md:text-base p-2 rounded-md transition duration-200">Home</a>
+            <a href="#" class="block text-gray-700 hover:text-blue-500 font-semibold text-lg md:text-base p-2 rounded-md transition duration-200">About</a>
+            <a href="#" class="block text-gray-700 hover:text-blue-500 font-semibold text-lg md:text-base p-2 rounded-md transition duration-200">Setting</a>
+        </nav>
+
+        <button id="menu-btn" class="md:hidden text-gray-700 hover:text-blue-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+        </button>
+    </div>
+
+    <div id="message" role="alert" class="rounded border-s-4 border-red-500 bg-red-50 p-4 mt-4 hidden">
+        <strong class="block font-medium text-red-800">404 - Dalam Perbaikan</strong>
+        <p class="mt-2 text-sm text-red-700">Halaman yang Anda cari tidak tersedia. Silakan kembali lagi nanti.</p>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

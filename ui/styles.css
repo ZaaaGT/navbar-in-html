@@ -1,0 +1,12 @@
+.container {
+margin: 0;
+padding: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+/* text-align: center;
+padding: 10px; */
+background-color: rgb(159, 163, 166);
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
